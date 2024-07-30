@@ -96,7 +96,7 @@ namespace Temporalio.Client
         /// <summary>
         /// List workflows with the given query.
         /// </summary>
-        /// <param name="query">Query to use for filtering.</param>
+        /// <param name="query">Query to use for filtering. Documentation https://docs.temporal.io/visibility#list-filter</param>
         /// <param name="options">Options for the list call.</param>
         /// <returns>Async enumerator for the workflows.</returns>
         public IAsyncEnumerable<WorkflowExecution> ListWorkflowsAsync(
